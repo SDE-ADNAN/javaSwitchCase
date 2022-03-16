@@ -8,18 +8,11 @@ public class Switch_Case {
 
         String fruit  = in.next();
 
-        switch (fruit){
-            case "Apple":
-                System.out.println(" a sweet red fruit");
-                break;
-            case "Mango":
-                System.out.println(" a sweet yellow fruit");
-                break;
-            case "Orange":
-                System.out.println(" a sweet orange fruit");
-                break;
-            default:
-                System.out.println("pls give a valid fruit name");
+        switch (fruit) {
+            case "Apple" -> System.out.println(" a sweet red fruit");
+            case "Mango" -> System.out.println(" a sweet yellow fruit");
+            case "Orange" -> System.out.println(" a sweet orange fruit");
+            default -> System.out.println("pls give a valid fruit name");
         }
 
     }
